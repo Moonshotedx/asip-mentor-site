@@ -48,6 +48,16 @@ function validate(input: unknown): ProblemsFile {
     for (const k of Object.keys(p.detail ?? {})) {
       if (!detailKeys.has(k)) errors.push(`${at}: unknown detail section "${k}"`);
     }
+    if (p.solutions !== undefined) {
+      if (!Array.isArray(p.solutions)) errors.push(`${at}: solutions is not an array`);
+      else {
+        for (const [i, s] of p.solutions.entries()) {
+          if (typeof s?.n !== "number") errors.push(`${at}: solutions[${i}] missing n`);
+          if (typeof s?.title !== "string" || !s.title.trim()) errors.push(`${at}: solutions[${i}] missing title`);
+          if (typeof s?.summary !== "string" || !s.summary.trim()) errors.push(`${at}: solutions[${i}] missing summary`);
+        }
+      }
+    }
   }
   if (file.meta && file.meta.total !== file.problems.length) {
     errors.push(`meta.total is ${file.meta.total} but there are ${file.problems.length} problems`);
@@ -210,3 +220,10 @@ export const SOURCE_LABELS: Readonly<Record<Source, string>> = {
   partner: "Partner brief",
   student: "Student-raised",
 };
+
+/** Possible-solutions block on partner briefs — not a detail key. */
+export const SOLUTIONS_SECTION = {
+  slug: "possible-solutions",
+  label: "Possible solutions",
+  intro: "Approaches proposed by the strongest student teams for this brief.",
+} as const;

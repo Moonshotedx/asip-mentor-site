@@ -17,6 +17,7 @@ import {
   SECTION_LABELS,
   SECTION_SLUGS,
   sectionsFor,
+  SOLUTIONS_SECTION,
   SOURCE_LABELS,
 } from "@/lib/data";
 
@@ -42,7 +43,11 @@ export default async function ProblemPage({ params }: Props) {
 
   const cluster = clusterByKey[p.cluster];
   const sections = sectionsFor(p);
-  const index = sections.map((s) => ({ slug: SECTION_SLUGS[s.key], label: SECTION_LABELS[s.key] }));
+  const solutions = p.solutions?.length ? p.solutions : undefined;
+  const index = [
+    ...sections.map((s) => ({ slug: SECTION_SLUGS[s.key], label: SECTION_LABELS[s.key] })),
+    ...(solutions ? [{ slug: SOLUTIONS_SECTION.slug, label: SOLUTIONS_SECTION.label }] : []),
+  ];
   const { prev, next } = clusterNeighbours(p.id);
   const position = problemsByCluster[p.cluster].findIndex((x) => x.id === p.id) + 1;
   const clusterTotal = problemsByCluster[p.cluster].length;
@@ -159,6 +164,40 @@ export default async function ProblemPage({ params }: Props) {
               </section>
             );
           })}
+
+          {solutions ? (
+            <section
+              id={SOLUTIONS_SECTION.slug}
+              aria-labelledby={`${SOLUTIONS_SECTION.slug}-h`}
+              className={`py-8 ${sections.length > 0 ? "border-t border-line" : "first:pt-0"}`}
+            >
+              <h2
+                id={`${SOLUTIONS_SECTION.slug}-h`}
+                className="group flex items-baseline gap-2 text-[1.1875rem] font-semibold tracking-[-0.01em] text-ink"
+              >
+                {SOLUTIONS_SECTION.label}
+                <a
+                  href={`#${SOLUTIONS_SECTION.slug}`}
+                  aria-label={`Link to ${SOLUTIONS_SECTION.label}`}
+                  className="no-print text-base font-normal text-faint opacity-0 transition-opacity group-hover:opacity-100 focus-visible:opacity-100"
+                >
+                  #
+                </a>
+              </h2>
+              <p className="mt-3 text-sm text-muted">{SOLUTIONS_SECTION.intro}</p>
+              <div className="mt-6 space-y-6">
+                {solutions.map((sol) => (
+                  <div key={sol.n}>
+                    <h3 className="text-base font-semibold tracking-[-0.01em] text-ink">
+                      Solution {sol.n}
+                    </h3>
+                    <p className="mt-1.5 font-semibold text-ink">{sol.title}</p>
+                    <p className="prose-brief mt-2">{sol.summary}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          ) : null}
         </article>
       </div>
 

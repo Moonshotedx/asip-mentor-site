@@ -32,6 +32,13 @@ export const DETAIL_KEYS = [
 export type DetailKey = (typeof DETAIL_KEYS)[number];
 export type ProblemDetail = Partial<Record<DetailKey, string>>;
 
+export interface ProblemSolution {
+  n: number;
+  team: string;
+  title: string;
+  summary: string;
+}
+
 export interface Problem {
   id: string;
   source: Source;
@@ -42,6 +49,8 @@ export interface Problem {
   summary: string;
   skills: string[];
   detail: ProblemDetail;
+  /** Present only on partner briefs (B-refs) that have student-team proposals. */
+  solutions?: ProblemSolution[];
 }
 
 export interface ProblemsMeta {

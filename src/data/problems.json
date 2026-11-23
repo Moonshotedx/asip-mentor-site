@@ -56,7 +56,27 @@
     "findingYourApproach": "Your first idea will probably be everyone else’s. Before you commit to it, find out what already exists in this space and why none of it has solved the problem for a young person at a Thriving Centre.\n\nThen answer the questions a good approach has to answer: who keeps this accurate in month seven, how do you prove an eligibility claim is right, and what does the tool do when the honest answer is that this person is not eligible for anything yet?",
     "sponsor": "Dream a Dream.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. Some room for design-minded students from any branch.\n- **Technical skills** — Data collection and cleaning, search and ranking, retrieval over documents, multilingual interfaces, low-bandwidth front-end work.\n- **Other skills** — User interviews, writing plainly for a reader who is not you, judging a source’s reliability."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Tech Titans",
+     "title": "One verified opportunity platform with an eligibility checker and facilitator mode",
+     "summary": "A mobile-friendly website in Kannada and English that gathers verified official links for scholarships, jobs and courses, each showing the source, deadline, required documents and a last-checked date with a named reviewer. A short questionnaire gives a cautious 'may be eligible / needs a facilitator' result and one next step. Facilitators use the same tool with students and print low-data summaries. The team would pilot a small listing first, based on ten student interviews."
+    },
+    {
+     "n": 2,
+     "team": "TechMinds",
+     "title": "Verified Opportunity Finder, built first, with an eligibility assistant and offline mode",
+     "summary": "A catalogue of scholarships, jobs and skill courses taken only from official pages. Each record shows plain-language eligibility, documents, deadline, source and who verified it. A second person checks every record, and records auto-expire or are flagged when not re-verified. Filters by type, qualification and deadline, in Kannada and simple English. A guidance assistant (short questionnaire) and an offline app come later; both depend on the verified records. Proposed free for youth, funded through Dream a Dream or CSR."
+    },
+    {
+     "n": 3,
+     "team": "INVICTA",
+     "title": "Offline-first PWA rule engine that gives a 'Next Step Card'",
+     "summary": "An offline progressive web app with local SQLite and a deterministic rules engine. Facilitators or youth enter age and qualification and receive a 'Next Step Card', or a 'Bridge Pathway' when ineligible, with no personal data leaving the device. It starts with the top 25 regional schemes and internships, in Kannada and English. Placement-cell volunteers feed a weekly verified WhatsApp/print digest; senior-student 'Application Buddy' sessions help with applications. They would test it on a ₹7,000 Android phone with Wi-Fi off."
+    }
+   ]
   },
   {
    "id": "B02",
@@ -87,7 +107,21 @@
     "findingYourApproach": "Around nine other teams are reading this same brief. Assume your first instinct is also theirs, and go looking for what makes the problem hard rather than what makes a demonstration look good.\n\nTwo questions worth arriving with: how do you estimate a population you cannot see, from public data that was never collected for this purpose, and what would make a centre manager still be updating your map a year after you have gone?",
     "sponsor": "Dream a Dream.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. Strong fit for anyone interested in data science or geospatial work.\n- **Technical skills** — Public data sourcing, geospatial analysis and mapping, estimation from incomplete data, data visualisation, survey design.\n- **Other skills** — Judging source quality, stating uncertainty honestly, documenting a method someone else can repeat."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "NextGen",
+     "title": "Public-data baseline map, place fact-sheet walks and a community board",
+     "summary": "The team maps the 8–10 km area around a centre using only public data: ward-level 15–29 population, UDISE+ school enrolment and OpenStreetMap places. It estimates out-of-school youth as a low–high range, with a source and year for every figure and 'no data' areas greyed out. Staff and young volunteers walk filling a standard fact sheet per place (offer, age, disability access, fee, hours, documents, apprenticeships). A paper noticeboard plus digital master, kept by a local custodian, are checked monthly."
+    },
+    {
+     "n": 2,
+     "team": "VibeTech",
+     "title": "Youth asset map and awareness drive, plus career links and a reusable toolkit",
+     "summary": "The team turns its field-verified map of nearby assets into a printed poster, leaflet and free online map in simple language, shared through schools, colleges and the centre and updated every six months. Next come career-guidance workshops with local employers and colleges that end in internship or training contacts. A step-by-step mapping toolkit (radius, public data, asset rating, youth interviews) lets other Dream a Dream centres repeat the method. Everything is low-cost and starts with the map."
+    }
+   ]
   },
   {
    "id": "B03",
@@ -118,7 +152,21 @@
     "findingYourApproach": "Alumni networks and mentor-matching schemes have been built many times, by organisations with far more money than Dream a Dream, and most of them are dead. Find out why before you design yours.\n\nOne question decides this project: why does anyone open it a second time? If you cannot answer that in a sentence, you do not have a proposal yet.",
     "sponsor": "Dream a Dream.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. Suits students who want product and behaviour work rather than heavy engineering.\n- **Technical skills** — Mobile-first and messaging-based interfaces, lightweight backend, matching logic, privacy-aware data handling.\n- **Other skills** — Behavioural design, running a pilot and measuring it honestly, interviewing, safeguarding awareness."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Algorithm Army",
+     "title": "Facilitator-run monthly alumni digest, then safeguarded mentoring introductions",
+     "summary": "The pilot starts on a channel Dream a Dream already uses, with no new app. Each month facilitators send alumni a short digest of opportunities, resources and small ways to contribute (answer one question, review a CV, join a Q&A). Next, young people submit a bounded mentoring request, and a facilitator checks consent and safeguarding before any introduction, so contacts are never exposed automatically. A resource shelf comes after that. Success means returning by week 3, not messages sent."
+    },
+    {
+     "n": 2,
+     "team": "ASTRA",
+     "title": "Mentor caseload and mutually agreed action tracker, plus a coordinator attention queue",
+     "summary": "A mobile-friendly dashboard with role-based login. After each meeting, mentor and mentee record a few agreed actions with an owner and due date. The other side acknowledges or renegotiates, reminders stay neutral, and there are no punitive reliability scores. A backend log stores only meeting metadata (date, mode, topic, next contact) and flags fading relationships into a coordinator attention queue, exportable as CSV. They would build the action tracker first and measure the agreed-action completion rate monthly."
+    }
+   ]
   },
   {
    "id": "B04",
@@ -148,7 +196,27 @@
     "findingYourApproach": "Furniture is the easy half. The harder half is that a room designed by adults signals who it belongs to, and no amount of soft seating changes that.\n\nThe stronger position deals with governance as well as objects: what are young people actually allowed to decide, how is that decision made and recorded, and what stops staff quietly overruling it?",
     "sponsor": "Dream a Dream.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical, and any branch with an interest in design. One of the few problems in this pool with a physical build at its centre.\n- **Technical skills** — Fabrication with basic tools, modular and flat-pack design, material selection and costing, safety assessment, prototyping.\n- **Other skills** — Participatory design, facilitation, writing rules people will actually follow."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "KALKI",
+     "title": "Room Decision Charter first, then 'Make and Mend' and a Room Trial Kit",
+     "summary": "A one-page charter, agreed with staff and young people, sorts room decisions into youth-only, joint and staff-only (safety or legal). Every proposal goes into a shared log, and any staff override is recorded with a reason. Once that works, a supervised group makes or repairs simple movable items from donated materials, and a trial kit lets users test room layouts for two weeks before keeping or undoing them. A four-week test measures proposals, response times, overrides and fairness."
+    },
+    {
+     "n": 2,
+     "team": "Team Nava",
+     "title": "Youth Leadership Committee coordinating maintenance and design teams",
+     "summary": "A Youth Leadership Committee of representatives from different groups meets regularly, collects suggestions, votes on decisions within an agreed scope and records them in a register. Staff approve anything involving safety, major spending or the building. Youth maintenance teams then run weekly checklists on furniture, books and materials and report damage, and young people help redesign parts of the space. The committee comes first and coordinates the rest. Progress is tracked with before-and-after photos, feedback and records of completed improvements."
+    },
+    {
+     "n": 3,
+     "team": "Velociraptors",
+     "title": "Tool-free flat-pack furniture kit with 'Canvas Corners' and youth-written layout rules",
+     "summary": "Slotted light plywood or bamboo stools, tables, benches and screens that interlock by hand, can be carried by two young people and are cut by local carpenters from a shared pattern. Youth switch the room between study, performance and lounge using illustrated layout cards. Youth-written rules make rearranging allowed by default. Free-standing writable panels ('Canvas Corners') let groups claim and rename zones without touching the walls. Grounded in secondary research (YALSA, IFLA); not yet tested with Dream a Dream."
+    }
+   ]
   },
   {
    "id": "B05",
@@ -179,7 +247,27 @@
     "findingYourApproach": "Be clear about what you are actually solving. The problem is not a shortage of equipment. It is that six children dominate any game with a ball in it while thirty stand at the edge.\n\nWhatever you propose will be judged against one measure: how many children were physically active, and for how long. Work backwards from that number.",
     "sponsor": "Dream a Dream, Thriving Schools programme.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical, and any branch interested in design or sport. Little software content.\n- **Technical skills** — Low-cost product design, fabrication, materials and durability, safety testing, designing for measurement.\n- **Other skills** — Working with teachers and children, observation and measurement, inclusive design, curriculum reading."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Byte Builders",
+     "title": "Zoned traditional games run by student 'Junior Captains', plus handicap rules for inclusion",
+     "summary": "The dirt courtyard is divided into four zones marked with stones or chalk, each running a traditional game (Lagori, Kunte Bille, Kabaddi). Four older students act as trained Captains who teach and referee while the class rotates. Asymmetric rules balance play: strong players get handicaps; less confident or disabled children get extra lives or head starts, on a Kannada/English rule sheet. Costs nothing; testable within 48 hours. Success: sidelined children moving at least 20 minutes, up from 4."
+    },
+    {
+     "n": 2,
+     "team": "Leftovers",
+     "title": "'Every Child Moves': an inclusive PE kit, illustrated activity cards and a participation check",
+     "summary": "One linked system with three parts. A shared kit of reusable multi-use equipment (markers, hoops, bean bags, ropes in a labelled bag, about ₹6,500 illustrative). Ten illustrated 'PE-in-a-Box' cards giving grade band, setup sketch, 3–5 steps, inclusive variations and safety notes, so an untrained teacher can start quickly. A simple observation sheet compares participation and active movement before and after. Pilot with one teacher and one class, after checking the school's inventory and curriculum."
+    },
+    {
+     "n": 3,
+     "team": "Gen Astra",
+     "title": "Verified equipment inventory, a football/volleyball starter kit and group rotation",
+     "summary": "Grounded in a school field visit that found too little equipment and no proper football court. The team first verifies the school's existing equipment, then trials a modest, affordable football-and-volleyball starter kit. Students are organised into rotating groups so more of them play and fewer wait. A shared playing-area redesign is considered only after measuring the site and getting school approval. Any improvement claims would come from actual school testing, with student feedback questions included."
+    }
+   ]
   },
   {
    "id": "B06",
@@ -209,7 +297,27 @@
     "findingYourApproach": "Understand SparkL’s existing method properly before you automate any part of it. The educators have already solved problems you have not thought of.\n\nThen two questions decide whether SparkL could use what you build. How do you assess a child’s reading without an adult listening to them? And what happens on the evening the internet is down and the tablet is at 8%?",
     "sponsor": "Project SparkL.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT.\n- **Technical skills** — Offline-first application design, speech or audio processing for reading assessment, adaptive logic, multilingual and Indic-script interfaces, data privacy.\n- **Other skills** — Working with educators, assessment design, writing for children, understanding a method before automating it."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "The Celestials",
+     "title": "Offline-first progress management app, piloted first as a bilingual paper progress card",
+     "summary": "The team leaves diagnosis to educators and removes manual record-keeping. Solution 1 is a lightweight web or hybrid app for shared low-spec devices: educators enter diagnostic scores, stages and remarks in Kannada or English. Data saves locally (IndexedDB/SQLite) and syncs when a network appears. Solution 2, which comes first, is one standard bilingual paper card per child per year, consolidated by a coordinator at set intervals. This fixes the data schema before hardware is bought."
+    },
+    {
+     "n": 2,
+     "team": "TriDevs",
+     "title": "Student progress record system plus a paper-first card for low-device centres",
+     "summary": "Progress tracking only: educators still assess and set skill grades; the system never calculates or suggests a level. On a shared device, an educator searches by centre, name or UID and enters the grade or stage and a remark for Kannada, English and Maths, four assessments a year. Each child's history follows them across years. Admins get cross-centre views. Attendance and a document 'journey' come later. First step: a bilingual card trialled in one centre for one assessment cycle."
+    },
+    {
+     "n": 3,
+     "team": "Syndicate",
+     "title": "Offline educator-led assessment app on Android, with a Kannada reading-AI experiment kept separate",
+     "summary": "A simple offline Android tool. The educator picks an anonymous learner code, steps through SparkL-approved skill levels in Kannada, English or Maths, and confirms the level the child showed. Results save locally; the app never decides on its own. A subject-wise progress history comes next. Speech-based Kannada reading assistance is only an experiment, compared against educator judgement and dropped if unreliable. Start with a paper prototype; test in airplane mode, with low battery and on shared devices."
+    }
+   ]
   },
   {
    "id": "B07",
@@ -240,7 +348,15 @@
     "findingYourApproach": "Sixty hours is the constraint that shapes everything. The useful question is not what a technician should know, but what you can honestly teach in sixty hours that gets someone hired.\n\nTalk to a workshop owner before you write a single line of syllabus. Ask what they actually test when somebody walks in looking for work.",
     "sponsor": "Project SparkL, Project Scale Up.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical and Electronics. The strongest Mech and EC problem in this pool.\n- **Technical skills** — Electric and internal combustion powertrains, battery systems, motor controllers, diagnostics, workshop practice, electrical safety, tooling and costing.\n- **Other skills** — Teaching and instructional design, competence assessment, talking to employers about what they hire for."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Team π",
+     "title": "A three-module, 60-hour pilot: petrol servicing, EV safety and workplace readiness",
+     "summary": "A safe bridge to helper and entry-level service-assistant roles, not full certification. Sixty hours split into 24 hours of petrol two-wheeler routine service, 18 hours of EV safety and non-invasive inspection, and 18 hours of workplace readiness (job cards, customer communication, spreadsheets), costed for a 12-learner group. Garage or ITI mechanics teach from session plans and photo-led task cards. Learners must pass a safety gate first and never open battery packs. Assessment is by observed tasks and job records."
+    }
+   ]
   },
   {
    "id": "B08",
@@ -270,7 +386,27 @@
     "findingYourApproach": "Several teams will land on the same tool over exported spreadsheets, and it is not obviously the wrong answer. That means visuals will not separate you.\n\nMaintenance will. Who refreshes the export, what happens when a platform renames a column, and why is your answer better than the spreadsheet it replaces? Treat this as a data engineering and handover problem rather than a charting problem.",
     "sponsor": "CWS Media and Outreach team. Note that this team also sponsors Brief 09, so their time is split.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT.\n- **Technical skills** — Working with third-party interfaces and their limits, scheduled jobs, data modelling, dashboard and chart design, credential handling.\n- **Other skills** — Defining metrics unambiguously, writing documentation someone else can follow, designing for handover."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Syntax Surgeons",
+     "title": "AI-powered communications dashboard with an anomaly early-warning layer",
+     "summary": "One dashboard pulls campaign data from CWS's platforms, uses a metric-definition sheet for consistent calculations, and generates automated reports. AI analysis spots successful campaigns, compares platforms and recommends content types; multi-platform publishing is also proposed. A second layer watches performance continuously, raises alerts on sudden drops or spikes, and writes plain-English insight summaries with suggested next actions. Built with Media and Outreach, checked against native platform reports, and handed over with documentation and staff training."
+    },
+    {
+     "n": 2,
+     "team": "Master Mind",
+     "title": "Governance first, then a unified integration layer feeding a Looker Studio dashboard",
+     "summary": "Three linked parts, built governance first. An integration system collects approved data from the eight platforms through native connectors or APIs where they exist, and controlled exports where they don't. Data lands in a protected Google Sheet or database, validated for dates, missing values, duplicates and column changes, starting with GA4 and Search Console. A Looker Studio dashboard groups website, search, social, YouTube, email and fundraising, with period/campaign filters and labels on manual imports. Figures checked against source reports."
+    },
+    {
+     "n": 3,
+     "team": "The Ronins",
+     "title": "Zero-cost 'dual-engine' Looker Studio and schema-locked Google Sheet",
+     "summary": "Native Looker Studio connectors pull GA4, YouTube and Search Console automatically. LinkedIn, Instagram, Flodesk and Razorpay data go into four locked Google Sheet tabs with validation rules, via a 15-minute weekly CSV paste. A Google Apps Script checks the schema, computes weekly changes and tags row sources. Looker blends everything into a two-page funnel dashboard with a 'Campaign Pulse' indicator. Free on Google for Nonprofits. Alternatives: a Python CSV-contract pipeline to static HTML, or cloud ETL with Supabase and Metabase."
+    }
+   ]
   },
   {
    "id": "B09",
@@ -300,7 +436,27 @@
     "findingYourApproach": "The interesting question is not how to make it answer. It is what happens when it answers confidently and wrongly.\n\nA wildlife organisation quoting a fabricated conflict statistic in a press release is worse off than with no tool at all. Work out how your system knows that it does not know, and design the human check that catches whatever gets through.",
     "sponsor": "CWS Media and Outreach team, who also sponsor Brief 08.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT.\n- **Technical skills** — Search and retrieval, document and image indexing, vision models for tagging, metadata design, permissions, evaluating a system for factual accuracy.\n- **Other skills** — Information architecture, designing a process people will keep using, testing for failure rather than for success."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Synergy",
+     "title": "Smart photo index in Google Sheets with human-confirmed AI tags, plus an Approved Facts Desk",
+     "summary": "Photos stay in CWS Drive. A Google Sheet index holds one row per photo: date, location, species, case or event, rights status, and a Drive link. A script fills the date and case from the admissions record. AI tagging (e.g. PhotoPrism) suggests species and scene, but tags stay 'unconfirmed' until staff accept them; low-confidence ones are flagged. A register of approved statistics serves grant writers. Target: a non-photographer finds 8 of 10 photos in under 5 minutes, against today's 30–45."
+    },
+    {
+     "n": 2,
+     "team": "NOVA",
+     "title": "Approved Facts Finder, Photo Finder with confirmed tags, on a permission-aware Drive layer",
+     "summary": "Staff ask a plain question; the tool searches only approved documents. It shows the figure exactly as written, copied by code rather than generated by the model, with document, approval date, approver and link—or answers 'No approved figure found'. A photo finder builds cards from EXIF, folder names and model-suggested species, confirmed by staff, with rights shown and 'unknown' in red. Search runs as the signed-in user so Drive permissions apply. A monthly job queues new files for named approvers."
+    },
+    {
+     "n": 3,
+     "team": "Vortex",
+     "title": "Low-cost metadata and naming standards first, then a permission-aware search layer",
+     "summary": "Start cheap: agree folder conventions, naming rules and basic metadata (type, date, species, location) in CWS's existing storage, and measure find-a-file tasks before and after on a sample folder. Next, a search interface indexes permitted metadata from approved locations and shows source links, dates and previews only to allowed users. Originals stay put; it replies 'Not found' rather than guessing. A full DAM platform is an option only if scale and budget justify it. Hosting costs are noted, not quoted."
+    }
+   ]
   },
   {
    "id": "B10",
@@ -330,7 +486,27 @@
     "findingYourApproach": "A contact database with a dashboard demonstrates well and answers a question CWS did not ask.\n\nThey asked whether they should build at all. Take that seriously enough to be willing to argue against building. And take their request to connect this to an AI assistant seriously enough to work out what it would actually mean for call notes and follow-ups.",
     "sponsor": "CWS Fundraising team.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. Suits students interested in product decisions as much as code.\n- **Technical skills** — Data modelling, application development, integration between services, working with a language model as a component, segmentation logic.\n- **Other skills** — Requirements gathering, cost analysis, writing a recommendation that argues a case, understanding fundraising as a process."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Team Challengers",
+     "title": "ReconcileFlow & TaxPort: an automated bank/UPI matcher and Form 10BD exporter",
+     "summary": "A lightweight Python module reads bank statements and Razorpay/UPI exports and fuzzy-matches reference IDs. Unmatched transactions go to an anomaly inbox, donors get secure links to supply missing PANs, and the module exports CSVs in CBDT Form 10BD format. Built first, because statutory failures carry penalties. Later: a Kanban pipeline tracking CSR tranches and utilisation certificates under Section 135, with 45-day alerts, and an offline PWA where field staff dictate notes that an NLP parser structures after sync."
+    },
+    {
+     "n": 2,
+     "team": "The Vipers",
+     "title": "A role-based donor relationship workspace first, with integrations and an AI assistant later",
+     "summary": "A secure, role-based website gives CWS staff one place for each donor or funder: identity, type, interests, giving history, interactions, documents, relationship owner and next action, with duplicate review and an audit trail. It starts with manual import of 30–50 records; Razorpay and Flodesk stay as source systems. Once stable, controlled integrations and an assistant follow—to search approved records, summarise history, draft notes and suggest follow-ups with human review. Pilot tests follow-up, handover and finance-query workflows."
+    },
+    {
+     "n": 3,
+     "team": "ElevateX",
+     "title": "Research summary only: reconciliation, event lead loss and handover gaps",
+     "summary": "The Task 4 file is a research summary with no solution section. From 15 interviews it finds four gaps: hours lost reconciling spreadsheets and payments; paper sign-up clipboards at events losing 15–20% of leads to illegible entries; donor notes scattered across laptops, inboxes and WhatsApp that disappear when staff leave; and generic 'first donation' messages reaching regular donors. CSR funders also require audited line-item ledgers. Existing CRMs poorly fit mid-sized Indian NGOs. No build approach is described."
+    }
+   ]
   },
   {
    "id": "B11",
@@ -360,7 +536,27 @@
     "findingYourApproach": "The standard approach to this is well documented and every team will find it. Finding it is not the contribution.\n\nWhat it hides is the interesting part. The target species may appear in a tiny fraction of clips, accuracy may be the wrong measure entirely, and a field ecologist has to be able to check your result. Design for those three and you will have something CWS can publish.",
     "sponsor": "CWS Research team. Note that CWS ranked this fifth of seven, so expect less of their attention than Briefs 08 to 10.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Electronics and CS. One of the few problems here with genuine signal processing content.\n- **Technical skills** — Audio signal processing, machine learning for classification, dataset construction and labelling, evaluation under class imbalance, reproducible research practice.\n- **Other skills** — Scientific writing, working inside someone else’s project, reporting negative results honestly."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "SparkShift",
+     "title": "Active-learning triage pipeline: a pretrained model filters, ecologists confirm, the model retrains",
+     "summary": "Raw WAV is cut into 3-second log-mel windows matching CWS's current classifier. A pretrained model (BirdNET or ResNet/EfficientNet), tuned to catch as much as possible (F-beta, β=2), drops clearly empty windows and ranks likely calls for ecologist review. Every accept or reject is saved and used to retrain. A random sample of discarded windows is checked to measure the true miss rate. Alternatives: fine-tuning with site-noise augmentation, or an offline detector on the field laptop. Processing stays offline for confidentiality."
+    },
+    {
+     "n": 2,
+     "team": "ARKHAM",
+     "title": "Benchmark the existing classifier honestly, then build a validated dataset, then add one species",
+     "summary": "Before building anything new, the team tests how well CWS's existing classifier works on unseen-site recordings. They report per-species precision, recall, a confusion matrix and false alarms per hour, and show failures as well as successes. Every prediction links to its clip, timestamp and spectrogram; ecologists get a blind spot-check list with labels hidden. Next, a reusable validated dataset grounded in rescue-team site confirmations, then extending the classifier to one new species—only if the benchmark shows a real gap."
+    },
+    {
+     "n": 3,
+     "team": "Squad Resonance",
+     "title": "Semi-supervised triage using Google Perch embeddings and clustering, with edge hardware later",
+     "summary": "Recordings are cut into 5-second clips and embedded with Google Perch. UMAP/HDBSCAN clustering groups cicada, rain and wind noise so a researcher can discard hours of it in a few clicks. Clear calls are auto-tagged; uncertain clips go to single-keypress expert review that keeps refining the model. Success: a 60%+ cut in review time with recall above 90%, on 500 clips. Later: a microcontroller edge filter (~$90–120) that records only on sound, and solar LoRa alarm nodes for conflict warnings."
+    }
+   ]
   },
   {
    "id": "B12",
@@ -390,7 +586,27 @@
     "findingYourApproach": "Ten teams left alone with the word blockchain will build ten token ledgers. Do not be one of them until you have argued the question properly.\n\nFour questions decide a serious proposal. Does a chain earn its place here, against a signed append-only log with published hashes and an independent auditor? Who or what attests that a thousand meals were served, and why should anyone believe that source? Who holds the signing keys for a charity, and what happens when they are lost? And at ₹1,000 a membership, do per-transaction costs make your design uneconomic?\n\nOne thing to raise with the sponsor. The context brief treats 80G as making the ₹1,000 tax-attractive and mentions a “50% tax rebate” in the corporate pitch. Under India’s new personal tax regime, now the default, Chapter VI-A deductions including 80G are generally not available to individuals. Confirm this before you build any part of the story around it.",
     "sponsor": "Atria Foundation, LoveAll Card. Contact given in the brief: contact@atriafoundation.org, +91 8971101055.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. The most demanding software problem in this pool.\n- **Technical skills** — Distributed ledgers and smart contracts, cryptographic hashing and signatures, key management, systems design under regulatory constraint, privacy-preserving data design, payment flows.\n- **Other skills** — Reading legislation and turning rules into system behaviour, arguing an architecture decision on evidence, explaining a technical design to a non-technical trustee."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "ONE PIECE",
+     "title": "Hybrid ledger: off-chain records, a signed append-only log, published hashes and compliance routing",
+     "summary": "Each inflow is recorded once with a unique ID and tagged with source (domestic or foreign), type (CSR, donation, membership) and purpose pool. Personal and financial detail stays in a private off-chain database. A digitally signed, append-only log publishes batch hashes so auditors can detect tampering. Rule-based routing blocks foreign funds from partner NGOs at API level and stops the same rupee counted under both CSR and 80G. Blockchain anchoring is added only if the sponsor needs a neutral timestamp."
+    },
+    {
+     "n": 2,
+     "team": "AJP Atria Janata Party",
+     "title": "Enterprise ledger (AWS QLDB) with a Python compliance-routing engine and FCRA hard stops",
+     "summary": "Donor personal data sits in PostgreSQL, so DPDP erasure is possible. An append-only AWS QLDB ledger stores only anonymised transaction hashes and compliance tags. A Python routing engine tags inflows as domestic or foreign, hard-rejects foreign funds bound for partner NGOs (FCRA), and checks an NGO's CSR-1 registration before releasing money. External auditors verify the hash exports. Zero-knowledge rollups on Polygon with IPFS vaults were considered and rejected for latency and erasure concerns. A chartered accountant validates the audit exports."
+    },
+    {
+     "n": 3,
+     "team": "Nexa",
+     "title": "Digital Transparency Dashboard first, then transaction-evidence and impact trackers",
+     "summary": "This PDF has no text layer, so it was read from page images. Solution 1 is an HTML/CSS/JS dashboard on sample data showing totals received and spent, remaining balance, spending categories and a dated transaction list. Solution 2 adds per-transaction reference IDs, receipt uploads and evidence statuses. Solution 3 links spending categories to activities and outcomes. The dashboard comes first as the cheapest test, checked for accuracy, privacy and traceability with 3–5 testers. Cost example is illustrative; no interviews completed."
+    }
+   ]
   },
   {
    "id": "B13",
@@ -421,7 +637,27 @@
     "findingYourApproach": "Whatever mechanism you choose, one question will find the hole in it. What stops a busy worker recording fifty trees from the shade without looking at any of them?\n\nA design that cannot answer that is a reporting system, not a verification system, and the donors it is built for will eventually work that out.",
     "sponsor": "Project Chitoor. Note this team also sponsors Briefs 14 to 17.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT, with room for Electronics students on the sensing side.\n- **Technical skills** — Payment and workflow automation, mobile data capture, offline sync, geolocation, image verification, scheduled reporting, audit trail design.\n- **Other skills** — Designing for people who will not be trained, thinking about how a system gets gamed, understanding what an auditor needs."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Blitz Byte",
+     "title": "Unique tree ID/QR record, GPS-tagged field updates and a verification dashboard",
+     "summary": "Each tree gets a unique ID, optionally a QR tag. Field workers use a simple offline-capable mobile form to log GPS, status, a dated photo and any care given. A coordinator dashboard sorts trees into verified alive, needs attention, dead, missing or not recently checked, sends reminders for overdue checks, and shows donors only verified updates. Drawn from farmer interviews asking for photos, records and watering reminders. Tag loss and GPS drift are noted as risks."
+    },
+    {
+     "n": 2,
+     "team": "Orbit",
+     "title": "TREE-LIFE: a digital tree evidence passport, a multi-indicator vitality checklist and a follow-up tracker",
+     "summary": "Each tree gets a low-cost 'Digital Tree Evidence Passport' built from repeated observations. A multi-indicator vitality checklist separates uncertain cases (dormancy, drought, transplant stress) from verified ones; a follow-up tracker records scheduled checks and who is responsible for maintenance. An offline method serves workers who can't use digital forms; selected records are independently checked by professionals. A ten-tree pilot measures record completeness, ease of use, agreement with expert assessment, follow-up completion and actual cost. No survival claims without evidence."
+    },
+    {
+     "n": 3,
+     "team": "Code & construct",
+     "title": "One tree, one ID, plus a named caretaker, seasonal survival checks and a donor profile",
+     "summary": "A ten-tree pilot pairs a unique tree ID with a named caretaker and scheduled seasonal survival checks, so aftercare responsibility is clear and field workers aren't overloaded. The register shows the date of the last verified check rather than claiming a tree is alive forever; photos alone don't count as proof. A simple donor tree profile is generated from the same register only once field records are dependable. Drawn from a GKVK campus visit and public records of failed transplants."
+    }
+   ]
   },
   {
    "id": "B14",
@@ -452,7 +688,27 @@
     "findingYourApproach": "Before you design anything, watch the task being done and time it. The parts that look hardest are rarely where the hours go.\n\nThen design for failure rather than for the demonstration: what happens when a bearing seizes with dust in it, whether a worker can clear a jam without tools, and whether your moisture reading tracks the produce being dry or only the surface being dry.",
     "sponsor": "Project Chitoor.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical, with Electronics on the sensing and control side.\n- **Technical skills** — Mechanism design, fabrication and welding, materials for outdoor use, solar and battery power, sensors and microcontrollers, calibration, cost engineering.\n- **Other skills** — Measuring a process before changing it, designing for repair, working alongside people who will use what you build."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Asteria",
+     "title": "Single-motor helical self-rotating tray stack with ESP32 sensing and control",
+     "summary": "Static shelves are replaced by circular or sector mesh trays on one vertical shaft, staggered at 120° so light passes between tiers. As the shaft slowly turns, every tray cycles through sun and shade while staying horizontal, so even semi-liquid produce works. An ESP32 reads temperature and humidity, drives the motor, logs drying progress, and can send status alerts. Operators load mornings and unload evenings. Conveyor and tilting-tray designs were considered. Parts stay simple for village technicians."
+    },
+    {
+     "n": 2,
+     "team": "Muji",
+     "title": "Piezoelectric tray-indexing mechanism for soft waste-fruit drying",
+     "summary": "Built for fragile waste fruit and vegetables, this replaces motors with piezoelectric actuators. A flexure-hinged mechanism amplifies 40 µm crystal strokes to 12 mm and drives a ratchet ring that turns the circular trays 1° per pulse. The actuators are sealed against 85–95% humidity and driven with a sawtooth waveform to limit fatigue. Trials compare moisture variance, produce damage and labour against static dryers. The file name says 'study what exists', but the content is the Task 4 solution."
+    },
+    {
+     "n": 3,
+     "team": "ROBLOX_011",
+     "title": "Automated solar spice dryer: timed tray tilting, a dryness check and gravity discharge",
+     "summary": "A solar air collector heats the drying air; a small PV panel powers the fan, motors and controller. A motorised tray tilts at set intervals. Temperature, humidity and weight sensors tell the microcontroller when the spice is dry; then the tray tilts or a gate opens into a clean hopper for factory transfer. Jams, sensor faults or an open door trigger a safe stop. They would test drying time, moisture, uniformity, damage, labour and energy against open-sun drying."
+    }
+   ]
   },
   {
    "id": "B15",
@@ -482,7 +738,27 @@
     "findingYourApproach": "Measure the baseline before you build. Without knowing how many labour hours deweeding takes today, you cannot show your machine helped, and neither can Project Chitoor.\n\nThen take on the unglamorous questions, because they are what decides it: uneven ground, what happens when the mechanism hits a stone, and whether one person can push it for four hours without their back giving out.",
     "sponsor": "Project Chitoor.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical. The purest mechanical engineering problem in this pool.\n- **Technical skills** — Mechanism and linkage design, soil and tool interaction, fabrication, ergonomics, materials and wear, cost engineering, field testing.\n- **Other skills** — Measuring a baseline before you change anything, iterating from failure, designing for the person who has to use it all day."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Aranya",
+     "title": "Low-cost push oscillating hoe with a shear-pin blade for stony ground",
+     "summary": "A push frame on a single light bicycle wheel carries a hinged double-edged stirrup blade that cuts weed roots 10–15 mm deep on push and pull strokes. A replaceable brass shear pin breaks on stone impact, protecting frame and crop. Built from local parts for about ₹1,200, in 150, 200 or 250 mm widths. Trial target on 100 m²: weeding time halved (12 to 6 hours/week) with under 1% stem damage. Alternatives: a rotary finger weeder and a depth-gauged skimmer."
+    },
+    {
+     "n": 2,
+     "team": "Team NEXUS",
+     "title": "Lightweight precision push-weeder with adjustable width and blade guard",
+     "summary": "A manual push-weeder run between crop rows, with a narrow adjustable blade and protective guard to keep safe distance from crop plants, an adjustable-width frame with a lock for different row spacings, and a design that copes with stones and uneven ground. Bill of materials (steel pipe frame, blade, rubber wheels, handle, fabrication) about ₹1,500. Testing means inspecting 20 crop plants before and after for root or plant damage, compared with the current method. The document is brief and plan-level."
+    },
+    {
+     "n": 3,
+     "team": "Xplorers",
+     "title": "Horizontal four-finger weed gripper that pulls weeds out by the root",
+     "summary": "A long-handled manual tool for areca nut plantations. Four horizontal fingers are pushed just below the soil around a weed clump. One button closes them; a second triggers an upward pull; then the fingers open to release the weeds. It aims to remove roots without disturbing crop roots. They would prototype the gripping head with local materials and test roots removed, time, crop-root damage and stone jamming against hand weeding. Fallbacks: a lever-assisted root puller and an adjustable-depth row weeder."
+    }
+   ]
   },
   {
    "id": "B16",
@@ -512,7 +788,27 @@
     "findingYourApproach": "Find out where the time actually goes before you design a thing. Marking positions, making holes, placing plants and covering them are four separate tasks, and only one of them is your bottleneck.\n\nCheap and old often wins here. Judge every idea against one test: is it faster than a hand, measured rather than claimed?",
     "sponsor": "Project Chitoor.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical.\n- **Technical skills** — Jig and fixture design, mechanism design, ergonomics, fabrication, materials, time and motion measurement, cost engineering.\n- **Other skills** — Observing work as it is actually done, iterating with the people who use the tool, resisting over-engineering."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Roboinspecto",
+     "title": "Wheel-driven push seed planter: soil opener, distributor and cover in one pass",
+     "summary": "A wheeled frame pushed along a prepared row. A front opener cuts a narrow furrow, a hopper releases seeds through a distributor driven by the wheel so drops match ground travel, and a rear guide covers the seed. Aimed at small and medium plots where seeds are now placed one by one. Bench testing first (missed or double drops, blockages), then equal-length rows against hand planting, recording time, spacing, depth and effort over three runs. Alternatives include a spacing-guide dibbler."
+    },
+    {
+     "n": 2,
+     "team": "GALAXY",
+     "title": "Video-only submission (no document)",
+     "summary": "GALAXY's Task 4 submission is a single video (VID-20261031-WA0014.mp4) with no written document, so we didn't summarise it here. A reviewer needs to watch the video, or ask the team for a written approach, to fill this slot."
+    },
+    {
+     "n": 3,
+     "team": "AstraX",
+     "title": "Modular manual planting tool with a depth stop and spacing guide",
+     "summary": "A battery-free, hand-operated tool for one well-defined planting task first. It has a lightweight frame, a soil opener (guided dibber or slot opener), an adjustable depth stop, a spacing guide marking the next point, and swappable attachments for seeds, slips or saplings added only once the first version works. Robotics students build and stress-test it; CSE/ISE students run a mobile data sheet and dashboard comparing planting rate and consistency with manual planting. Later: a rolling multi-module planter or sensor-assisted version."
+    }
+   ]
   },
   {
    "id": "B17",
@@ -542,7 +838,27 @@
     "findingYourApproach": "Notice what your first instinct assumes. Most approaches to this problem assume infrastructure is the barrier, while Project Chitoor’s own description puts teacher workload first.\n\nFind out which is true before you build anything. A team willing to report that the hardware was the wrong purchase will produce something more useful than a team that starts building in week two.",
     "sponsor": "Project Chitoor, education work.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS and IT for the software and monitoring, Electronics for power and connectivity. Also suits students who want research and fieldwork.\n- **Technical skills** — Offline-first content delivery, local caching and syncing, low-power and battery-backed systems, usage logging and analysis, Android device management.\n- **Other skills** — Structured root-cause investigation, interviewing people who may not tell you the real reason, designing a pilot, reporting an unwelcome finding."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Invaders",
+     "title": "Ready-to-run kiosk tablets with preloaded offline content, plus a named tablet in-charge",
+     "summary": "Field staff preload free, curriculum-aligned offline content (DIKSHA) once, over a good connection. Each tablet is locked into a kiosk launcher (about $2 per tablet per month) that opens straight into a lesson, so teachers need not set up anything. A named in-charge handles charging, hand-out and log-ins within a fixed timetable slot. The pilot runs 5–10 tablets for four or more weeks, past the usual three-week fade. Working if use in weeks 4–6 stays near week 1."
+    },
+    {
+     "n": 2,
+     "team": "Pixel Pioneers",
+     "title": "Offline-first lesson kit plus a simple device register and care routine",
+     "summary": "Lesson-aligned videos, pictures, quizzes and activities are stored on tablets so they work without internet, tested first on one topic with one class. Every tablet is numbered; a register tracks condition, charging, faults, date reported, who is responsible and repair status. A named device-care teacher runs a fixed charging routine, records faults the same day, follows up with a repair contact and does a weekly count. After 2–4 weeks they measure how fast faults are noticed and fixed."
+    },
+    {
+     "n": 3,
+     "team": "Marvel-X",
+     "title": "Ready-to-use offline lessons with teacher guides, plus automatic usage tracking",
+     "summary": "A small set of curriculum-matched lessons built from content the school already has, each with subject, class level, objective, duration and a short teacher guide, downloaded in advance so no live connection is needed. They pilot one class and one subject within the existing timetable and measure setup time, interruptions, completion, participation and a short learning check. A second solution logs tablet usage automatically so the barrier that matters most shows up. Cause of non-use is still unproven."
+    }
+   ]
   },
   {
    "id": "B18",
@@ -573,7 +889,27 @@
     "findingYourApproach": "The temptation is to point a language model at the web and generate decks. That fails SELCO’s review, because a model will produce a confident yield figure for turmeric in Odisha with nothing behind it and no way to tell it from a real one.\n\nThe problem worth solving is the inverse of generation. Build something that refuses to state a number it cannot cite, and that treats “no data found” as a correct output rather than a failure.",
     "sponsor": "SELCO Foundation, Innovation Team. Engaged through Sushma at Xcelerator. Assignment issued 5 September 2026.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. Open to any branch for the research side, since the subject matter spans agriculture, animal husbandry, textiles and small business.\n- **Technical skills** — Information retrieval, document parsing and extraction, citation tracking, working with language models under a factual-accuracy constraint, automated document generation.\n- **Other skills** — Desk research at a professional standard, judging source credibility, writing to a fixed structure, working to a review cycle with external deadlines."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Synerbyte",
+     "title": "Cite-or-refuse evidence ledger plus a field kit that feeds it local numbers",
+     "summary": "Every number sits in one ledger row with value, unit, year, source and page, date accessed, scope (national, state or local) and verification status. The engine drafts a sentence only from a complete row; otherwise it writes 'No data found' and logs what it searched. A field kit follows one lot through the chain, recording quantities, losses, deductions and prices by specification; these enter the ledger as field-observed data. Drawn from ten interviews and mismatches such as 47.3% vs 46.94%."
+    },
+    {
+     "n": 2,
+     "team": "Nebula",
+     "title": "Standardised value-chain research template first, then a source-linked research assistant",
+     "summary": "A common template for SELCO's research decks: stages and activities, stakeholders, costs and prices, equipment and energy, losses, existing technologies, and source, year and location for each figure. Missing data is marked 'data not found' or 'requires verification' rather than guessed. The template is tested first against the current workflow, counting traceable sources and unresolved gaps. Later, a research assistant over a curated document set answers value-chain questions with references back to the originals."
+    },
+    {
+     "n": 3,
+     "team": "SynthX",
+     "title": "Strict grounded RAG engine with table extraction and a human citation-audit dashboard",
+     "summary": "A ChromaDB vector store holds only approved PDFs (NABARD, ICAR, SFAC, commodity boards). The model answers only from retrieved chunks, and below a similarity threshold it must output 'No Sourced Data Found', which goes into a 'Data Gap Identified' box in the 10-section deck. Numbers bypass the LLM entirely: Camelot or LlamaParse table parsing feeds python-pptx templates. A Streamlit dashboard shows each metric next to its source snippet, and an analyst must click 'Verify Citation' before it reaches the deck."
+    }
+   ]
   },
   {
    "id": "B19",
@@ -603,7 +939,27 @@
     "findingYourApproach": "A chatbot told to act like a nine-year-old who cannot count demonstrates beautifully for four minutes and then falls apart. Understand why before you propose anything.\n\nThe model already knows arithmetic and drifts back to competence under pressure. It is agreeable, so it will appear to learn from bad teaching, which makes it worse than no tool at all. And real children fail in patterned ways: reciting numbers without understanding quantity, getting it right on Tuesday and wrong on Thursday, guessing what the adult wants instead of thinking.\n\nThe team that makes the avatar refuse to learn when taught badly, and can say where that judgement comes from, has the strongest pitch here.",
     "sponsor": "Project SparkL founders. This is their third problem in the pool alongside Briefs 06 and 07.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS, IT. The most demanding language-model problem in this pool, and not a wrapper exercise.\n- **Technical skills** — Controlling and constraining model behaviour, evaluation design for open-ended systems, conversation and dialogue design, state modelling, offline and low-bandwidth delivery, Kannada language handling.\n- **Other skills** — Understanding pedagogy before automating it, designing a training experience, measuring whether a person actually got better, working with vulnerable-group safeguarding."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Ctrl Freaks",
+     "title": "State-based simulated child: an LLM held in place by a learner card and a state controller",
+     "summary": "Each simulated learner comes from a structured learner card: what the child can do, the misconception to show (e.g. recites 1–10 without understanding cardinality), typical responses, and what evidence may change its state. The language model writes natural dialogue; a separate state controller checks every turn, so the avatar can stay wrong after poor teaching and doesn't 'learn' just because the adult insists. Twenty scripted conversations are scored by two reviewers. Next: a facilitator-in-the-loop studio and a Kannada low-bandwidth kit."
+    },
+    {
+     "n": 2,
+     "team": "Mosaic",
+     "title": "Interactive teaching scenarios first, growing into hybrid practice with founder review",
+     "summary": "The plan starts with a digital set of preloaded classroom scenarios (e.g. a child struggling with counting or subtraction). Facilitators choose a teaching move, see likely outcomes and get feedback based on SparkL's approved guidelines, and it works with limited connectivity. Founders review the scenarios for accuracy. In the longer term, facilitators practise independently, including with an AI simulated learner that can make mistakes, and the system summarises common difficulties so founders review summaries instead of supervising every session."
+    },
+    {
+     "n": 3,
+     "team": "Ingenium",
+     "title": "Facilitator Development System: toolkit, staged practice pathway and observation rubric",
+     "summary": "A non-AI approach to scaling facilitation skill. It combines a competency checklist of observable behaviours, a standard session toolkit (plan template, timings, materials, reflection prompts, guidance for common challenges) and a staged pathway: observe, understand, rehearse, co-facilitate, lead under observation, readiness review, independent delivery. A shared rubric and feedback record track progress. The pilot is one mock workshop testing whether two observers apply the rubric consistently. It does not propose a simulated student."
+    }
+   ]
   },
   {
    "id": "B20",
@@ -633,7 +989,27 @@
     "findingYourApproach": "Read ElephantBook before you propose anything, and notice that its authors kept a human in the loop when they could have automated it. Work out why.\n\nThen answer what the standard approach hides: what your system does with a blurry photograph of an animal it has never seen, and how few photographs of a new individual are enough.",
     "sponsor": "Atria Foundation, under its Bio-Diversity pillar.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS and Electronics. Strong computer vision content.\n- **Technical skills** — Computer vision and re-identification, metric learning and embeddings, open-set recognition, working with small and imbalanced datasets, human-in-the-loop system design.\n- **Other skills** — Reading and building on published research, scientific writing, reporting error honestly, handling sensitive data."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "GarudaX",
+     "title": "A re-ID engine that can say 'I don't know', plus a review workbench and location-safe data",
+     "summary": "An open-source ear detector and contour matcher (after Weideman 2020 and Kulits 2021) is fine-tuned on 200–300 authorised photos of 50 or more elephants. Mark features (tusks, notch positions) narrow the shortlist; a photo-quality score and 'possible new individual' threshold are set on held-out animals. Results are blind-tested as top-1/top-5 accuracy, wrong acceptances and refusal rate. Researchers confirm matches in a review-and-enrol workbench. GPS is stripped on upload and kept separately so locations cannot leak; this is red-teamed by outsiders."
+    },
+    {
+     "n": 2,
+     "team": "Team Ascend",
+     "title": "Quality-aware human-in-the-loop system built on ear-morphology matching",
+     "summary": "Computer vision detects the elephant, extracts ear features and ranks candidate matches from the reference catalogue; an expert makes the final decision. Image-quality checks return 'Insufficient image quality' instead of guessing. Usable photos with no good match return 'Unknown individual: expert review required'; provisional identities are created only through approved review. Evaluation on a held-out dataset reports accuracy among accepted predictions, rejection rate and false matches for each image-quality level. Recommended over a manual catalogue or AI alone."
+    },
+    {
+     "n": 3,
+     "team": "Team Forge",
+     "title": "Explainable match assistant on a structured identity catalogue, with image-quality triage",
+     "summary": "A user uploads a photo and gets a ranked list of known elephants. Each candidate highlights supporting evidence (ear fold or notch, scars, tail, tusks) and is labelled Likely Match, Needs Review or Possible New Individual, with a person always confirming. It sits on a searchable catalogue of verified IDs, reference photos, attributes and non-sensitive sightings, with duplicate warnings. Triage marks photos Ready to Compare, Limited Evidence or Retake. First build: catalogue, candidate retrieval and review states; stronger AI later."
+    }
+   ]
   },
   {
    "id": "B21",
@@ -663,7 +1039,27 @@
     "findingYourApproach": "Photograph-and-identify platforms already exist and are very good. Rebuilding one is not a contribution.\n\nThe opportunity is in the unglamorous middle: taking data that already exists and turning it into an estimate a conservation planner would act on. That means being honest about what each method cannot see.",
     "sponsor": "Atria Foundation, under its Bio-Diversity pillar.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS and Electronics, with a strong pull for anyone interested in ecology or statistics.\n- **Technical skills** — Statistical estimation under imperfect detection, combining heterogeneous data sources, species classification from images or audio, sensor deployment, data visualisation.\n- **Other skills** — Reading ecological literature, stating uncertainty, resisting the urge to claim completeness."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Euphoria",
+     "title": "Multi-method biodiversity evidence estimator for one real site, plus an uncertainty dashboard",
+     "summary": "At one permitted site, the team combines two complementary methods, such as repeated acoustic or point-count surveys plus camera traps. Every record logs method, time, location precision, survey effort, identification confidence and an evidence link; uncertain IDs stay uncertain. Blind spots are documented per method; occupancy modelling is used only if a statistics mentor confirms support—otherwise labelled 'evidence coverage'. A plain-language dashboard shows detections, effort, data-quality flags and the next survey that would reduce uncertainty. Threatened-species locations are blurred."
+    },
+    {
+     "n": 2,
+     "team": "Beyond Impact",
+     "title": "Paired human point-counts and passive acoustic recorders at Jakkur Lake, with occupancy modelling",
+     "summary": "In a mapped pilot area of Jakkur Lake, Bengaluru, trained observers run repeated point-count surveys at fixed points while acoustic recorders capture the same points and time windows. A competent reviewer verifies uncertain calls; detection histories feed a multi-method occupancy model estimating occupancy and each method's detection probability, if sample size allows. Evaluation compares overlap and method-only detections, recorder uptime and single-method versus combined estimates, with confidence intervals. Partners: a local ecologist, the lake authority, volunteers and a statistics mentor."
+    },
+    {
+     "n": 3,
+     "team": "Team ASHTA-X",
+     "title": "Pilot camera traps with AI-assisted review, then add acoustic sensors",
+     "summary": "Start small: camera traps at a permission-approved site with a short target-species list. Humans review every image; AI species suggestions are scored against human labels for missed detections, false positives and accuracy. Exact locations stay private; only approved general alerts go to forest staff. If a gap shows up, a clock-synced microphone is added and camera-only, audio-only and combined detections are compared, removing duplicates and reporting uncertainty. Solar power and live alerts come last. Costs are drivers, not invented totals."
+    }
+   ]
   },
   {
    "id": "B22",
@@ -693,7 +1089,15 @@
     "findingYourApproach": "Read the Amaran work before you design anything, then look hard at one number in it. Setup takes roughly fourteen of its twenty-two minutes per tree, so only about eight minutes is climbing and cutting.\n\nMaking the climb faster barely moves the total. Most teams will optimise the wrong number. Decide which number you are attacking, and say so.",
     "sponsor": "Atria Foundation.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Mechanical, with Electronics on control and teleoperation. The most demanding mechanical problem in the pool.\n- **Technical skills** — Mechanism and gripper design, climbing and traction systems, structural analysis and failure modes, actuators and control, remote operation, safety engineering, cost engineering.\n- **Other skills** — Reading prior art properly, measuring where time actually goes, designing for the worst tree rather than the best one."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "SkillOriented",
+     "title": "Semi-autonomous ring-clamp climbing robot with a remote cutter and rope lowering",
+     "summary": "An adjustable ring frame clamps around the trunk. Geared DC motors drive gripping wheels to climb and descend while the operator stays on the ground, watching through a wireless camera. At the crown, a remote cutting arm detaches the bunch, which comes down on a controlled rope. An ESP32 handles control, with an emergency stop and anti-fall protection. Alternative: a ground winch and rope that lifts a lighter unit. Evaluation covers climb success, cycle time, tree compatibility, safety and cost."
+    }
+   ]
   },
   {
    "id": "B23",
@@ -722,7 +1126,27 @@
     "findingYourApproach": "A device that clips onto a plant and plays generative music will look and sound wonderful, and will tell nobody anything about the plant.\n\nStart from the experiment and treat the hardware as the means. If your proposal names what you will measure, against what control, and what result would prove you wrong, you are ahead of almost every team on this problem.",
     "sponsor": "Atria Foundation.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Electronics primarily, with CS for the analysis. Genuine instrumentation and signal processing content.\n- **Technical skills** — Biopotential measurement, electrode design, low-noise amplification, signal processing, time-series classification, experimental design and statistics.\n- **Other skills** — Designing an experiment that can disprove your own hypothesis, reading scientific literature critically, separating a real effect from a compelling demonstration."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "BrahmAstra",
+     "title": "Non-invasive hydrogel stem collar, a two-plant divergence algorithm and a buzzer alert",
+     "summary": "A 3D-printed stem clip holds Ag/AgCl electrodes in a long-life glycerol-agarose gel and feeds a high-impedance AD8221 amplifier with a 20 Hz filter to remove mains hum. An ESP32 compares a drying plant with a watered control using 60-minute rolling RMS variance and flags drought after a 3σ divergence lasting 90 minutes. A buzzer acts only as an alarm, never as evidence. They plan a 96-hour dry-down on 8 tomato plants and report divergence 28–36 hours before visible drooping."
+    },
+    {
+     "n": 2,
+     "team": "Velocity",
+     "title": "Blinded early-warning lead-time trial, then a 'check-first' list for nursery rounds",
+     "summary": "In a nursery, half the potted plants are kept watered and half dried, all on the same low-cost logger with soil-moisture probes. An alert rule is fixed in advance; a blinded scorer rates daily leaf photos, giving each plant's hours of warning before wilting versus a moisture-only rule. An open recorder adds light, temperature, humidity, motion and a dummy noise channel; data is released openly. Only if the signal holds does a morning 'check-first' list follow. Based on 12 interviews."
+    },
+    {
+     "n": 3,
+     "team": "Team Innovia",
+     "title": "Low-cost plant electrical-signal monitor, extended with environmental sensors and a dashboard",
+     "summary": "Electrodes on a plant feed an amplifier and a microcontroller or data logger. The team first records a baseline of normal activity, then readings under controlled stress, looking for consistent changes before visible symptoms—because everything else depends on accurate readings. Next, soil-moisture, temperature and humidity sensors are recorded alongside to separate causes of stress; an analytics dashboard shows signal graphs and baseline comparisons. Built on advice from an agricultural engineer and a botany faculty member. No market-ready claims are made."
+    }
+   ]
   },
   {
    "id": "B24",
@@ -753,7 +1177,27 @@
     "findingYourApproach": "There are thousands of habit trackers and their documented problem is that people stop opening them. Assume yours will too, unless you can say why not.\n\nTwo questions decide whether a pitch is serious. What makes someone do the thing on day forty, when the novelty has gone and nobody is watching? And how do you know they did it, without taking their word for it and without following them around?",
     "sponsor": "InspireMinds.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS and IT for the intervention and data, Electronics for sensing and wearables. Open to any branch with an interest in behavioural science or statistics.\n- **Technical skills** — Experiment design, measurement instrumentation, mobile and wearable data capture, time-series and statistical analysis, privacy-preserving data handling, interface design for daily use.\n- **Other skills** — Research ethics and consent, running a study with human participants, recruiting and retaining them, reporting a result that disappoints the sponsor."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Sprits",
+     "title": "Weekly 'goal, barrier, small action, reflect' cycle, plus micro-challenges and optional peer check-ins",
+     "summary": "Each student picks one goal, names what usually stops them, plans one small action and spends five minutes a week reflecting and adjusting. Schedule changes are expected, and writing is kept to a few lines. Alternatives are shrinkable one-week micro-challenges and optional peer check-ins with no scores or monitoring. Pilot: 10–15 volunteers at one college, six weeks on paper or a simple form, feedback chats at weeks 3 and 6, and a follow-up at week 10 after support ends."
+    },
+    {
+     "n": 2,
+     "team": "PixelCoders",
+     "title": "10-minute 'wind-down switch' if–then card for sleep, with no app and no streaks",
+     "summary": "A one-page paper or phone card. The student picks a cue they already have (brushing teeth, the phone going on charge), chooses one to three actions (Do Not Disturb, phone away from the bed) and writes an if–then plan, drawing on implementation-intention research. A missed night is just a missed night. It comes from student surveys on irregular bedtimes. A seven-day co-designed trial has a week-seven follow-up. Later options: a one-message 'quiet buddy' check-in and a one-tap evening alarm guide."
+    },
+    {
+     "n": 3,
+     "team": "Team Vanguard",
+     "title": "12-week Personal Growth Challenge with buddy-verified proof and a waitlist evidence study",
+     "summary": "Over 12 weeks, students choose a goal and one observable action that counts as proof, pair with a buddy, and complete a two-minute weekly check-in that the buddy confirms, targeting the drop-off around week 7. Behaviours are measured at weeks 0, 3, 7 and 12 against a waitlist group, with an independent university or NGO partner reviewing anonymised results. Trained student champions running an exam-mode version follow in phase 2. InspireMinds and the college would deliver it, with grant support."
+    }
+   ]
   },
   {
    "id": "B25",
@@ -784,7 +1228,27 @@
     "findingYourApproach": "Most teams will treat this as a streaming problem and build a media server. That part is close to a solved problem, and it will not distinguish you.\n\nThe questions that decide it: how many phones can one wireless access point actually serve before the video stutters, and what changes if everyone watches the same thing at the same time rather than different things? What content can you lawfully carry for ten rupees a head, and who would want it? And who pays — the passenger, an advertiser, or the operator?",
     "sponsor": "Atria Foundation.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — Electronics for the wireless and hardware side, CS and IT for the software and the caching. One of the more balanced problems in this pool.\n- **Technical skills** — Wireless networking and capacity planning, local caching and content delivery, adaptive streaming, embedded and low-power hardware, load testing at realistic scale.\n- **Other skills** — Unit economics, content licensing basics, reading a regulated environment, testing a claim rather than demonstrating a feature."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Team NEXTERA",
+     "title": "BusBox: a ₹-cheap Raspberry Pi onboard Wi-Fi server running audio-first 'SunoSafar' content",
+     "summary": "A Raspberry Pi Zero 2 W with a 64 GB SD card in a sealed box runs on about 3 W of vehicle power and serves a local Wi-Fi captive portal (hostapd, dnsmasq, lighttpd). Passengers use a browser—no app, no data. Video choked 2.4 GHz Wi-Fi, so content is audio and text first (64 kbps) for 30+ users. Free to riders (0 of 34 would pay over ₹10), operator-hosted and CSR-funded. Depot card-swap sync comes later."
+    },
+    {
+     "n": 2,
+     "team": "Zero civicsense",
+     "title": "Offline onboard media server with a download-first player (research dossier, not yet validated)",
+     "summary": "A local onboard server stores licensed media so railway passengers can watch without mobile internet. A download-first player is proposed so completed files keep playing when Wi-Fi drops. The next step is a lab prototype serving at least 30 devices from a local cache with the internet off, plus a per-ride cost model. Caveat: the document says it is a pre-validation dossier compiled partly from AI-generated research texts (qwen, gemini), with sketches, video and research log still missing."
+    },
+    {
+     "n": 3,
+     "team": "Team Omega",
+     "title": "Onboard local Wi-Fi media portal with a hybrid free tier and ₹10 pass",
+     "summary": "A managed media server and access points on a pilot coach store rights-cleared content before departure. Passengers connect, open a captive portal and stream with no external internet. A sponsor-supported free tier covers public-service clips, short videos, audio and learning content; a ₹10 one-ride pass unlocks a wider catalogue with no auto-renewal. A curated social-impact playlist (health, skills, careers) is tested too. Phases: validate with passengers and RailTel/Railways, prototype the portal, then pilot with limited users. No premium films initially."
+    }
+   ]
   },
   {
    "id": "B26",
@@ -813,7 +1277,27 @@
     "findingYourApproach": "A profile database with a matching algorithm is where almost every team will start, and it is the thing that has already been built several times.\n\nTwo questions decide whether your pitch is serious. Where does the demand come from — what makes an employer post a role they would not otherwise have posted? And what is the smallest version of this that could produce one real match inside your cycle, so you find out whether any of it is true?",
     "sponsor": "Atria Foundation.\n\nThe programme team will put you in touch and set up the first conversation.",
     "skillsAndBranches": "- **Branch** — CS and IT. Suits students who want product and research work more than heavy engineering.\n- **Technical skills** — Matching and recommendation logic, accessible interface design for older users, lightweight backend, privacy-aware data handling.\n- **Other skills** — Interviewing on both sides of a market, testing a demand assumption before building, accessibility, reporting a conclusion the sponsor did not expect."
-   }
+   },
+   "solutions": [
+    {
+     "n": 1,
+     "team": "Society Saviours",
+     "title": "Human-led managed work matching, plus an employer task-design programme",
+     "summary": "A coordinator records an employer's defined task (training, mentoring, specialist advice, a short project) with skills, duration, budget and conditions. They check an older professional's interest and consent, make the introduction and follow up, using only calls, a spreadsheet and a written brief—because NCS and SACRED already exist and software comes later. A second strand helps businesses and NGOs turn small needs into budgeted tasks. Success: one genuine agreed assignment with a documented outcome, not sign-ups; work is never promised."
+    },
+    {
+     "n": 2,
+     "team": "Alpha achievers",
+     "title": "Verified Work Opportunity Hub with assisted registration",
+     "summary": "A mobile-friendly site with large text listing verified flexible jobs, consulting, tutoring, mentoring and community roles for people aged 60 and over. Each listing shows duties, location or remote, hours, pay (or unpaid), skills, accessibility notes and a contact. Applications by form, phone or with family help; misleading listings can be reported. Pilot: a landing page and spreadsheet directory of 10–20 verified opportunities. Later: skills and micro-work matching plus age-inclusive employer partnerships. User insights are still noted as hypotheses."
+    },
+    {
+     "n": 3,
+     "team": "Team Elight",
+     "title": "Wrong file submitted: a Task 1 problem report, no solution",
+     "summary": "The Task 4 link points to a Task 1 report ('WAVE_ASIP_TASK1_Work_After_60_Years'), not a solutions document. It reviews evidence on working after 60 (WHO and ILO sources, Census 2011 figures, data gaps) and stakeholder interests, and recommends flexible options such as reduced hours, consulting and mentoring, fair hiring and training. It proposes no concrete solution or build approach. Ask the team for its actual Task 4 file before publishing."
+    }
+   ]
   },
   {
    "id": "S01",
