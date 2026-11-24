@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SOURCE_LABELS } from "@/lib/data";
+import { SOLUTIONS_SECTION, SOURCE_LABELS } from "@/lib/data";
 import type { MatchKind } from "@/lib/data";
 import type { Problem } from "@/lib/types";
 import { ClusterBadge } from "./ClusterBadge";
@@ -9,9 +9,11 @@ import { ShortlistButton } from "./ShortlistButton";
 /**
  * The card is the three-minute unit: everything a mentor needs to decide
  * "could I mentor this?" without opening the brief. The whole card is a link
- * (stretched anchor), with the shortlist toggle layered above it.
+ * (stretched anchor). The shortlist toggle and the solutions link sit above
+ * that anchor as siblings, so they are not nested inside it.
  */
 export function ProblemCard({ problem: p, match, index = 0 }: { problem: Problem; match?: MatchKind; index?: number }) {
+  const showSolutions = p.source === "partner" && (p.solutions?.length ?? 0) > 0;
   return (
     <article
       data-cluster={p.cluster}
@@ -55,13 +57,23 @@ export function ProblemCard({ problem: p, match, index = 0 }: { problem: Problem
         </ul>
       </div>
 
-      <div className="mt-auto flex items-end justify-between gap-3 pt-5">
-        <p className="text-[0.8125rem] leading-5 text-muted">
+      <div className="mt-auto flex flex-wrap items-end justify-between gap-x-3 gap-y-2.5 pt-5">
+        <p className="max-w-full shrink-0 text-[0.8125rem] leading-5 text-muted">
           <span className="sr-only">Domains: </span>
           {p.domains.join(", ")}
           {match === "brief" && <span className="mt-0.5 block font-medium text-ink-2">Matched in full brief</span>}
         </p>
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="ml-auto flex max-w-full shrink-0 flex-wrap items-center justify-end gap-2">
+          {showSolutions ? (
+            <Link
+              href={`/problems/${p.id}/#${SOLUTIONS_SECTION.slug}`}
+              id={`solutions-${p.id}`}
+              className="relative z-10 inline-flex items-center rounded-lg border border-line-strong bg-surface px-2.5 py-1.5 text-[0.8125rem] font-semibold text-ink-2 transition-[background-color,border-color,color,transform] duration-150 hover:border-ink hover:text-ink active:scale-95"
+            >
+              Solutions
+              <span className="sr-only"> for {p.id}</span>
+            </Link>
+          ) : null}
           <ShortlistButton id={p.id} title={p.title} />
           <span
             aria-hidden="true"
