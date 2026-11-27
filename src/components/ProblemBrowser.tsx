@@ -97,10 +97,9 @@ function BrowserView({ filters, onChange }: { filters: Filters; onChange: (f: Fi
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       {/* Intro */}
       <section aria-labelledby="page-title" className="pb-8 pt-10 sm:pt-14">
-        <p className="eyebrow">For IEEE mentors</p>
         <h1
           id="page-title"
-          className="mt-3 max-w-3xl text-[2rem] font-semibold leading-[1.1] tracking-[-0.025em] text-ink sm:text-[2.75rem]"
+          className="max-w-3xl text-[2rem] font-semibold leading-[1.1] tracking-[-0.025em] text-ink sm:text-[2.75rem]"
         >
           These are the problem statements
         </h1>
